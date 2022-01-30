@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/main/public/favicon.png" width="20px">
+    <br/>Dt Money
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/CrisnaldoSantos/dt-money?color=5429cc">
 
-## Available Scripts
+  <a href="https://www.crisnaldocarvalho.com.br">
+    <img alt="Made by Crisnaldo" src="https://img.shields.io/badge/made%20by-Crisnaldo Carvalho-5429cc">
+  </a>
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-5429cc">
+</p>
 
-### `npm start`
+## Descrição:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>
+Micro dashboard contruído em ReactJS ao qual são registradas entradas e saídas financeiras, fornecendo acesso aos registros e indicadores. Foi desenvolvida no estudo do módulo 2 do curso de especialização Ignite da Recketseat.
+</p>
+<p>
+A aplicação foi hospedada no Firebase, a distribuição ocorre através de deploy automático por GithubActions, e pode ser acessada através da url:
+<a href="https://dtmoney-71863.web.app/" target="_blank">https://dtmoney-71863.web.app/</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias:
 
-### `npm test`
+- ReactJS
+- Typescript
+- MirageJS
+- GithubActions
+- Firebase
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Considerações Tecnológicas
 
-### `npm run build`
+<p>
+O desenvolvimento foi feito com CRA(create react app) com uso de typescript, o gerenciamento de estados ocorreu com Context Api, e seu uso pelos coponentes dado através da criação de hook próprio para a funcionalidade.
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+O presente front-end não dispõe de um servidor, e para tal fou utilizado o MirageJs, atuando como mock Http. A execução do mesmo ocorre em paralelo à aplicação, interceptando chamadas executadas pelo app para um endpoint o endereço da mesma com o sufixo <i>/api</i>. Com essa abordagem o log das chamadas fica registrado no console da aplicação de forma automática pelo Mirage, e não são vistas na aba Network do navegador. Como benefício, ao hospedar a aplicação o mock, desde que apontado corretamento nas variáveis de ambiente, executará junto da mesma sem a necessidade de rodar algum outro comando ou recurso. 
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/readme/src/assets/screen/dtmoney1.PNG" alt="página inicial">
+</p>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/readme/src/assets/screen/dtmoney2.PNG" alt="modal de registro">
+</p>
