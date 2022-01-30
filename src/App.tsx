@@ -1,9 +1,8 @@
-/* eslint-disable react/jsx-no-constructed-context-values */
 import { Dashboard } from 'components/Dashboard';
 import Modal from 'react-modal';
 import { useState } from 'react';
 import { NewTransactionModal } from 'components/NewTransactionModal';
-import {  TransactionsProvider } from 'contexts/TransactionsContext';
+import { TransactionsProvider } from 'contexts/TransactionsContext';
 import { Header } from './components/Header';
 import { GlobalStyle } from './styles/global';
 
