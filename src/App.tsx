@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import { Dashboard } from 'components/Dashboard';
 import Modal from 'react-modal';
 import { useState } from 'react';
 import { NewTransactionModal } from 'components/NewTransactionModal';
+import {  TransactionsProvider } from 'contexts/TransactionsContext';
 import { Header } from './components/Header';
 import { GlobalStyle } from './styles/global';
 
@@ -20,7 +22,7 @@ function App() {
   }
 
   return (
-    <>
+    <TransactionsProvider>
       <NewTransactionModal
         isOpen={isNewTransactionModalOpen}
         onRequestClose={() => handleCloseNewTransactionModal()}
@@ -30,7 +32,7 @@ function App() {
       />
       <Dashboard />
       <GlobalStyle />
-    </>
+    </TransactionsProvider>
   );
 }
 
