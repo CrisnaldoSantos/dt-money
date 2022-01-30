@@ -44,9 +44,9 @@ O presente front-end não dispõe de um servidor, e para tal fou utilizado o Mir
 ## Screenshots
 
 <p align="center">
-    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/main/src/assets/screen/dtmoney1.PNG" alt="página inicial">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/main/src/assets/screen/dtmoney1.PNG" alt="página inicial">
 </p>
 
 <p align="center">
-    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/main/src/assets/screen/dtmoney2.PNG" alt="modal de registro">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/main/src/assets/screen/dtmoney2.PNG" alt="modal de registro">
 </p>
