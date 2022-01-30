@@ -38,15 +38,15 @@ O desenvolvimento foi feito com CRA(create react app) com uso de typescript, o g
 </p>
 
 <p>
-O presente front-end não dispõe de um servidor, e para tal fou utilizado o MirageJs, atuando como mock Http. A execução do mesmo ocorre em paralelo à aplicação, interceptando chamadas executadas pelo app para um endpoint o endereço da mesma com o sufixo <i>/api</i>. Com essa abordagem o log das chamadas fica registrado no console da aplicação de forma automática pelo Mirage, e não são vistas na aba Network do navegador. Como benefício, ao hospedar a aplicação o mock, desde que apontado corretamento nas variáveis de ambiente, executará junto da mesma sem a necessidade de rodar algum outro comando ou recurso. 
+O presente front-end não dispõe de um servidor, e para tal fou utilizado o MirageJs, atuando como mock Http. A execução do mesmo ocorre em paralelo à aplicação, interceptando chamadas executadas pelo app para um endpoint o endereço da mesma com o sufixo <i>/api</i>. Com essa abordagem o log das chamadas fica registrado no console da aplicação de forma automática pelo Mirage, e não são vistas na aba Network do navegador. Como benefício, ao hospedar a aplicação o mock, desde que apontado corretamento nas variáveis de ambiente, executará junto da mesma sem a necessidade de rodar algum outro comando ou recurso.
 </p>
 
 ## Screenshots
 
 <p align="center">
-    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/readme/src/assets/screen/dtmoney1.PNG" alt="página inicial">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/main/src/assets/screen/dtmoney1.PNG" alt="página inicial">
 </p>
 
 <p align="center">
-    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/readme/src/assets/screen/dtmoney2.PNG" alt="modal de registro">
+    <img src="https://github.com/CrisnaldoSantos/dt-money/blob/feat/main/src/assets/screen/dtmoney2.PNG" alt="modal de registro">
 </p>
